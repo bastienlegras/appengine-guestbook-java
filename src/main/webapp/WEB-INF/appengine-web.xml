@@ -5,7 +5,7 @@
     <threadsafe>true</threadsafe>
     
     <module>default</module>
-    <!--vm>true</vm>
+    <vm>true</vm>
     <manual-scaling>
         <instances>1</instances>
     </manual-scaling-->
