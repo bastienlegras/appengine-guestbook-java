@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
 <%
     String guestbookName = request.getParameter("guestbookName");
     if (guestbookName == null) {
@@ -87,5 +88,6 @@
     <div><input type="text" name="guestbookName" value="${fn:escapeXml(guestbookName)}"/></div>
     <div><input type="submit" value="Switch Guestbook"/></div>
 </form>
+
 </body>
 </html>
