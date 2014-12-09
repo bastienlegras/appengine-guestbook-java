@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<img src="http://leweb.co/wp-content/uploads/2014/10/leweb-2014-logo-100x100.png">
+<img src="/img/leweb.png">
 <%
     String guestbookName = request.getParameter("guestbookName");
     if (guestbookName == null) {
@@ -88,6 +88,5 @@
     <div><input type="text" name="guestbookName" value="${fn:escapeXml(guestbookName)}"/></div>
     <div><input type="submit" value="Switch Guestbook"/></div>
 </form>
-<img src="http://leweb.co/wp-content/uploads/2014/10/leweb-2014-logo-100x100.png">
 </body>
 </html>
