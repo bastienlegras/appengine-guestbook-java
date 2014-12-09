@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+<img src="http://leweb.co/wp-content/uploads/2014/10/leweb-2014-logo-100x100.png">
 <%
     String guestbookName = request.getParameter("guestbookName");
     if (guestbookName == null) {
