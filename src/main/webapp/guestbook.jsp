@@ -18,7 +18,6 @@
 </head>
 
 <body>
-<img src="/img/leweb.png">
 <%
     String guestbookName = request.getParameter("guestbookName");
     if (guestbookName == null) {
